@@ -1,4 +1,27 @@
-libraryJs is my personal JavaScript Library
+**libraryJs is my personal JavaScript Library**
 
 most of it is pretty useless play stuff but every once in a while, a ninja line
 jumps out and slices you up.
+
+[objectDb] : This is a websql db translation layer for interacting with json 
+		objects the idea is pretty young but I intend for this to act as 
+		a base library for handling a web applications transition between
+		online states.
+		
+[colorPicker] : This one just started up not long ago, hence the shit code
+		The idea is that the color picker should allow mathematical
+		operations to be performed to be easily at run time to accomodate
+		color manipulation operations in things like canvas.
+		
+[cssMake] : This is just a real time javascript sass plugin. You can grab some
+		data or make a "style" rule object on the fly and inject it into the
+		page. This was intended to be handy for creating run time css selector
+		objects based on data interactions from the user without the round
+		trip. Particularly useful if you are using something like jQuery to add
+		dom elements to the tree, with this you can style them without relying
+		on the style attribute.
+
+[testJs] : Not even really written yet but in the test pages I have the beginnings
+		of a little test framework. It is pretty simple and not very robust but
+		I intend to write it out and make it more approachable by leaning it onto
+		the chrome/safari developers tools and Mozilla Firefox.
