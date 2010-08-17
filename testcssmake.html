@@ -1,0 +1,60 @@
+ <html>
+	<head>
+		<script src="cssMake.js" type="text/javascript"></script>
+		<style type="text" id="TESTCONTEXT">
+a
+  :color #fff
+  &:hover
+    :color #000
+  &.active
+    :background #888
+    &:hover
+      :color #fff
+		</style>
+		<style type="text" id="SECONDIMPORT">
++large
+  :font-size 15px
++striped
+  tr
+    :background #fff
+    +large
+    &:odd
+      :background #000
+table
+  +striped
+  :border none
+		</style>
+	</head>
+	<body>
+		<h1 class="newclass">Hello World!</h1>
+		<a href="#TEST">TEST</a>
+		<pre id="TESTCONTEXT_results">
+a {
+  color: #fff;
+}
+a:hover {
+  color: #000;
+}
+a.active {
+  background: #888;
+}
+a.active:hover {
+  color: #fff;
+}
+		</pre>
+		<pre id="SECONDIMPORT_results">
+table {
+  border: none;
+}
+table tr {
+  background: #fff;
+}
+table tr {
+  font-size: 15px;
+}
+table tr:odd {
+  background: #000;
+}
+		</pre>
+	</body>
+</html>
