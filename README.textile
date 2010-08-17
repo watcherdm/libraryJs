@@ -27,3 +27,7 @@ jumps out and slices you up.
 		of a little test framework. It is pretty simple and not very robust but
 		I intend to write it out and make it more approachable by leaning it onto
 		the chrome/safari developers tools and Mozilla Firefox.
+		
+*_keyCode_* : Simple library for handling keyboard inputs and returning values.
+		I intend to make a full featured mechanism for wiring a global method
+		set off of any dom object to react to keyboard input.
